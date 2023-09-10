@@ -1,0 +1,8 @@
+index:
+    path: /
+    controller: App\Controller\CheckerController::index
+
+check:
+    path: /check
+    controller: App\Controller\CheckerController::check
+    methods: [ 'POST' ]
